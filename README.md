@@ -1,0 +1,2 @@
+# Python_note_and_practice
+一些python基础知识点的笔记和练习
