@@ -61,5 +61,5 @@ def train(model, train_loader, criterion, optimizer, epochs=5):
             loss.backward()
             optimizer.step()
             loss_all+=loss.item()
-        print(f'{epoch+1}--loss--:{loss_all}')
+        print(f'{epoch+1}--loss--:{loss_all/len(train_loader)}')
 train(model,train_loader,criterion,optim,5)
